@@ -13,6 +13,7 @@ namespace AlgorithmPrograms
             switch(option)
             {
                 case 1:
+                    //Permutation of a word
                     Console.WriteLine("Enter a string to permute : ");
                     string str = Console.ReadLine();
                     int start = 0, end = str.Length;

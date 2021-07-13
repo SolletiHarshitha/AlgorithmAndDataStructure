@@ -8,6 +8,12 @@ namespace AlgorithmPrograms
 {
     class Permutation
     {
+        /// <summary>
+        /// Permutation using Recursion
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="startPos"></param>
+        /// <param name="endPos"></param>
         public void PermuteRecursive(string str,int startPos,int endPos)
         {
             if(startPos==endPos)
@@ -22,8 +28,7 @@ namespace AlgorithmPrograms
                 }
             }
         }
-
-        public static String Swap(String str,int i, int j)
+        public static String Swap(String str, int i, int j)
         {
             char temp;
             char[] charArray = str.ToCharArray();
@@ -32,9 +37,6 @@ namespace AlgorithmPrograms
             charArray[j] = temp;
             string s = new string(charArray);
             return s;
-        }
-
-        
-       
+        }  
     }
 }
