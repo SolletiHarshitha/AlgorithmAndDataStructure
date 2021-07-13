@@ -17,8 +17,7 @@ namespace AlgorithmPrograms
                     Console.WriteLine("Enter a string to permute : ");
                     string str = Console.ReadLine();
                     int start = 0, end = str.Length;
-                    Permutation permute = new Permutation();
-                    permute.PermuteRecursive(str, start, end-1);
+                    Permutation.PermuteRecursive(str, start, end-1);
                     break;
                 case 0:
                     break;

@@ -14,7 +14,7 @@ namespace AlgorithmPrograms
         /// <param name="str"></param>
         /// <param name="startPos"></param>
         /// <param name="endPos"></param>
-        public void PermuteRecursive(string str,int startPos,int endPos)
+        public static void PermuteRecursive(string str,int startPos,int endPos)
         {
             if(startPos==endPos)
                 Console.WriteLine(str);
