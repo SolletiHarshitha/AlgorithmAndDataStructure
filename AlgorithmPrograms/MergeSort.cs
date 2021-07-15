@@ -8,6 +8,9 @@ namespace AlgorithmPrograms
 {
     class MergeSort
     {
+        /// <summary>
+        /// Performing Merge Sort to sort an array
+        /// </summary>
         public static void ReadInput()
         {
             Console.WriteLine("Enter size of the array : ");

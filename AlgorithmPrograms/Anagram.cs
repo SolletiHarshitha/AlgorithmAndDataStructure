@@ -8,6 +8,9 @@ namespace AlgorithmPrograms
 {
     class Anagram
     {
+        /// <summary>
+        /// Checking the two strings are anagram or not
+        /// </summary>
         public static void FindAnagram()
         {
             Console.WriteLine("Enter first string");

@@ -8,6 +8,9 @@ namespace AlgorithmPrograms
 {
     class PrimeNumbers
     {
+        /// <summary>
+        /// Finding the prime numbers and checking if they are palindrome and anagrams
+        /// </summary>
         public static void FindPrime()
         {
             int start = 0, end = 1000;

@@ -8,6 +8,9 @@ namespace AlgorithmPrograms
 {
     class FindNumber
     {
+        /// <summary>
+        /// Guessing a number 
+        /// </summary>
         public static int startPoint = 1, endPoint = 100;
         public static bool isFound = false;
         public static int FindMid()

@@ -8,6 +8,9 @@ namespace AlgorithmPrograms
 {
     class InsertionSort
     {
+        /// <summary>
+        /// Performing Insertion Sort to sort an array
+        /// </summary>
         public static void ReadInput()
         {
             Console.WriteLine("Enter size of the array : ");

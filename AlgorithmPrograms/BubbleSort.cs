@@ -8,8 +8,9 @@ namespace AlgorithmPrograms
 {
     class BubbleSort
     {
-        //T[] arr= new T[5];
-       
+        /// <summary>
+        /// Performing Bubble Sort to sort an array
+        /// </summary>
         public static void ReadInput()
         {
             Console.WriteLine("Enter size of the array : ");
