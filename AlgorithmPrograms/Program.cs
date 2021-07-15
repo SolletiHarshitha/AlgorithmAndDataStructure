@@ -15,7 +15,7 @@ namespace AlgorithmPrograms
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Permutation\n2.Binary Search of word\n3.Insertion Sort\n4.Bubble Sort\n5.Merge Sort\n6.Anagrams\n7.Prime Numbers\n0.Exit");
+                Console.WriteLine("1.Permutation\n2.Binary Search of word\n3.Insertion Sort\n4.Bubble Sort\n5.Merge Sort\n6.Anagrams\n0.Exit");
                 Console.WriteLine("Choose an option : ");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -41,9 +41,6 @@ namespace AlgorithmPrograms
                         break;
                     case 6:
                         Anagram.FindAnagram();
-                        break;
-                    case 7:
-                        PrimeNumbers.FindPrime();
                         break;
                     case 0:
                         break;
