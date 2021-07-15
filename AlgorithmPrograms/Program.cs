@@ -15,7 +15,7 @@ namespace AlgorithmPrograms
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Permutation\n2.Binary Search of word\n0.Exit");
+                Console.WriteLine("1.Permutation\n0.Exit");
                 Console.WriteLine("Choose an option : ");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -26,9 +26,6 @@ namespace AlgorithmPrograms
                         string str = Console.ReadLine();
                         int start = 0, end = str.Length - 1;
                         Permutation.PermuteRecursive(str, start, end);
-                        break;
-                    case 2:
-                        BinarySearch.ReadInput();
                         break;
                     case 0:
                         break;
