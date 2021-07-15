@@ -14,17 +14,17 @@ namespace AlgorithmPrograms
             int size = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter elements of an array : ");
             string[] arr = new string[size];
-            for(int i = 0; i < size; i++)
+            for (int i = 0; i < size; i++)
             {
                 arr[i] = Console.ReadLine();
             }
-            Insertion(arr,size);
+            Insertion(arr, size);
         }
-        private static void Insertion(string[] arr,int length)
+        private static void Insertion(string[] arr, int length)
         {
-            for(int i = 1; i < length; i++)
+            for (int i = 1; i < length; i++)
             {
-                for(int j = i; j > 0; j--)
+                for (int j = i; j > 0; j--)
                 {
                     if (arr[j - 1].CompareTo(arr[j]) > 0)
                     {
@@ -35,9 +35,9 @@ namespace AlgorithmPrograms
                 }
             }
             Console.WriteLine("After performing Insertion Sort : ");
-            for(int i=0;i<length;i++)
+            for (int i = 0; i < length; i++)
             {
-                Console.Write(arr[i]+" ");
+                Console.Write(arr[i] + " ");
             }
         }
         public static void Swap(String[] a, int i, int j)
