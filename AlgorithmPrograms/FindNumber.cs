@@ -39,6 +39,7 @@ namespace AlgorithmPrograms
         }
         public static void ThinkNumber()
         {
+            Console.WriteLine("Assume number between {0} -{1}",startPoint,endPoint);
             while(startPoint!=endPoint && isFound == false)
             {
                 int mid = FindMid();
