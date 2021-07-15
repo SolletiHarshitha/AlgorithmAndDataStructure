@@ -15,7 +15,7 @@ namespace AlgorithmPrograms
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Permutation\n2.Binary Search of word\n3.Insertion Sort\n0.Exit");
+                Console.WriteLine("1.Permutation\n2.Binary Search of word\n0.Exit");
                 Console.WriteLine("Choose an option : ");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -29,9 +29,6 @@ namespace AlgorithmPrograms
                         break;
                     case 2:
                         BinarySearch.ReadInput();
-                        break;
-                    case 3:
-                        InsertionSort.ReadInput();
                         break;
                     case 0:
                         break;
