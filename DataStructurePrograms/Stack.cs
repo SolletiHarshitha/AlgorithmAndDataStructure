@@ -19,7 +19,7 @@ namespace DataStructurePrograms
     class Stack<T>
     {
         public Node<T> top;
-
+        //Pushing elements into stack
         public void Push(T value)
         {
             Node<T> newNode = new Node<T>(value);
@@ -33,7 +33,7 @@ namespace DataStructurePrograms
                 top = newNode;
             }
         }
-
+        //Popping top element
         public int pop()
         {
             if (top == null)
@@ -48,7 +48,7 @@ namespace DataStructurePrograms
                 return 1;
             }
         }
-
+        //Finding the top element
         public int Peek()
         {
             if (top == null)

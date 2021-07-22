@@ -13,9 +13,9 @@ namespace DataStructurePrograms
 
             Stack<char> stack = new Stack<char>();
             int balanced = 0;
-            string equation = "(5+6)∗(7+8)/(4+3)(5+6)∗(7+8)/(4+3)";
+            string equation = "(5+6)∗(7+8)/(4+3)(5+6)∗(7+8)/(4+3)(";
             Console.WriteLine("Equation : \n" + equation);
-
+            //Checking if the paranthesisi balanced or not
             for (int i = 0; i < equation.Length; i++)
             {
                 if (equation[i].Equals('('))
@@ -25,17 +25,13 @@ namespace DataStructurePrograms
                 else if (equation[i].Equals(')'))
                 {
                     balanced = stack.pop();
-                    if (balanced == 1)
-                    {
-                        break;
-                    }
                 }
             }
             if (stack.Peek() == 1)
             {
                 Console.WriteLine("The Equation is balanced");
             }
-            else if (stack.Peek() == 0 && balanced == 0)
+            else if (stack.Peek() == 0 && balanced == 1)
             {
                 Console.WriteLine("The Equation is not balanced");
             }
