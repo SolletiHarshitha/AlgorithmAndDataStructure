@@ -8,6 +8,7 @@ namespace DataStructurePrograms
 {
     class Palindrome
     {
+        //Checking the string is palindrome or not
         public void ReadInput()
         {
             Dequeue<char> dequeue = new Dequeue<char>();
